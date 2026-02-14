@@ -1,0 +1,155 @@
+/* Global */
+
+body {
+    margin: 0;
+    font-family: 'Share Tech Mono', monospace;
+    background: #0a0a0f;
+    color: #00fff7;
+}
+
+/* Neon glow effect */
+h1, h2, h3 {
+    font-family: 'Orbitron', sans-serif;
+    text-shadow: 0 0 10px #00fff7;
+}
+
+/* Navbar */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10%;
+    background: rgba(0,0,0,0.6);
+    border-bottom: 1px solid #00fff7;
+}
+
+.logo {
+    color: #ff00ff;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav a {
+    color: #00fff7;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ff00ff;
+    text-shadow: 0 0 10px #ff00ff;
+}
+
+/* Hero */
+
+.hero {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background:
+        radial-gradient(circle at center, #111, #000);
+}
+
+.hero span {
+    color: #ff00ff;
+}
+
+/* Buttons */
+
+.btn {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    background: #00fff7;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn:hover {
+    box-shadow: 0 0 20px #00fff7;
+}
+
+.btn-outline {
+    padding: 10px 20px;
+    border: 1px solid #ff00ff;
+    color: #ff00ff;
+    text-decoration: none;
+}
+
+.btn-outline:hover {
+    box-shadow: 0 0 20px #ff00ff;
+}
+
+/* Sections */
+
+.section {
+    padding: 60px 10%;
+    text-align: center;
+}
+
+/* Glass effect */
+
+.glass {
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: blur(10px);
+    border: 1px solid #00fff7;
+}
+
+/* Skills */
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    padding: 20px;
+    border: 1px solid #00fff7;
+    transition: 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 0 20px #00fff7;
+    transform: scale(1.05);
+}
+
+/* Projects */
+
+.project {
+    border: 1px solid #ff00ff;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 500px;
+}
+
+.project:hover {
+    box-shadow: 0 0 20px #ff00ff;
+    transform: scale(1.03);
+    transition: 0.5s;
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #00fff7;
+}
+
+.Profile-photo img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #00fff7;
+
+}
